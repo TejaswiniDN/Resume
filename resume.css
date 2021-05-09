@@ -1,0 +1,84 @@
+html,body{
+    margin:0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    max-height: max-content;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    vertical-align: baseline;
+    background-image:url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.about,.skills,.education,.contact,.certificate,.languages{
+    padding: 20px;
+    min-height: 250px;
+
+}
+
+.contact,.education,.languages,.certificate{
+    margin-top: 30px;
+}
+
+header{
+    text-align: center;
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+header img{
+    display: inline-block !important;
+    border: 3px solid white;
+    padding: 5px;
+}
+header h3{
+    padding-top: 30px;
+}
+
+.about{
+    background: white;
+}
+.skills{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+.skills .progress{
+    border-radius:2px;
+    height:4px;
+}
+
+.skills .progress .progress bar-primary{
+    background: #304090;
+}
+.skills strong{
+    display:inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+.education{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+.education .edu-points{
+    padding-bottom: 14px;
+}
+.languages{
+    background: white;
+    padding-top: 27px;
+}
+.languages ul{
+    padding: 10px;
+}
+.languages ul li{
+    padding-bottom: 6px;
+}
+.contact{
+    background: white;
+}
+.certificate{
+    background: #3366cc;
+    color: #f5f5f5;
+}
