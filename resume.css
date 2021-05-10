@@ -41,6 +41,26 @@ header h3{
 .about{
     background: white;
 }
+.about:hover{
+    box-shadow: 10px 10px 5px grey;
+
+}
+.skills:hover{
+    box-shadow: 10px 10px 5px  grey;
+}
+.education:hover{
+box-shadow: 10px 10px 5px grey;
+}
+.languages:hover{
+box-shadow: 10px 10px 5px grey;
+}
+.contact:hover{
+box-shadow: 10px 10px 5px grey;
+}
+.certificate:hover{
+box-shadow: 10px 10px 5px grey;
+}
+
 .skills{
     background: #3366cc;
     color: #f5f5f5;
